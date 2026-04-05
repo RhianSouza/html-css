@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body{
+            background-color: rgba(142, 73, 49, 0.733);
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <a href="#" onclick="clicou()">CLIQUE EM MIM</a>
+    <div id="saida"></div>
+
+    <script>
+        function clicou() {
+            let s = window.document.getElementById("saida")
+            s.innerHTML += "<p>Você clicou!!!</p>"
+        }
+    </script>
+</body>
+</html>
